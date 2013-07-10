@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DomAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="camara">Camara</string>
+	<string name="valor_actual">Valor actual:</string>
+	<string name="valor_deseado">Valor deseado:</string>
+	<string name="modulo">Módulo</string>
+	<string name="frmModul">Módulo</string>
+	<string name="config">Configuración</string>
+	<string name="modulos">Módulos</string>
+	<string name="conexion">Tipo de conexión</string>
+	<string name="frmConfig">Configuración</string>
+	<string name="configModulos">Configuración de Módulos</string>
+	<string name="frmConfigMod">Configuración de Módulos</string>
+	<string name="cofigMod_nombre">Nombre</string>
+	<string name="cofigMod_tipo">Tipo</string>
+	<string name="cofigMod_entrada">Entrada</string>
+	<string name="cofigMod_salida">Salida</string>
+</resources>

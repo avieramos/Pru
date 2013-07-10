@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="match_parent"
+  android:background="@color/background"
+  android:orientation="vertical">
+
+	<TextView
+	    android:id="@+id/txtModDesc"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:text="@string/modulo"
+	    android:textSize="@dimen/Mod_Titul" >
+	</TextView>
+		
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow>
+			<TextView 
+				android:text="@string/valor_actual" 
+				android:id="@+id/lblModValAct" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView 
+				android:text=""
+				android:id="@+id/txtModValAct" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+		</TableRow>
+	
+		<TableRow>
+			<TextView 
+				android:text="@string/valor_deseado" 
+				android:id="@+id/lblModValDesead" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<EditText
+			    android:id="@+id/txtModValDesad"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:inputType="numberDecimal" >
+			    <requestFocus />
+			</EditText>
+	
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
+

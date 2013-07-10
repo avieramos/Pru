@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoModulos">
+        <item>LED</item>
+        <item>Botón</item>
+        <item>Sensor Temperatura</item>
+        <item>Sensor Humedad</item>
+        <item>Sensor Luz</item>
+        <item>Sensor Proximidad</item>
+    </string-array>
+</resources>

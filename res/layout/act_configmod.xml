@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 
+    <TextView
+	    android:id="@+id/txtConfigMod"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:text="@string/configModulos"
+	    android:textSize="@dimen/Mod_Titul" >
+	</TextView>
+     -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TableRow >
+            <TextView 
+				android:text="@string/cofigMod_nombre" 
+				android:id="@+id/lblConfigModNombre" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+
+			<EditText
+			    android:id="@+id/txtConfigModNombre"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:width="230dp"
+			    android:inputType="text" >
+
+			</EditText>            
+        </TableRow>
+        
+        <TableRow >
+            <TextView 
+				android:text="@string/cofigMod_tipo" 
+				android:id="@+id/lblConfigModTipo" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+
+            <Spinner
+                android:id="@+id/desplConfigModTipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+        </TableRow>
+        
+        <TableRow >
+            <TextView 
+				android:text="@string/cofigMod_entrada" 
+				android:id="@+id/lblConfigModEntrada" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+
+			<EditText
+			    android:id="@+id/txtConfigModEntrada"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:inputType="number" >
+
+			</EditText>            
+        </TableRow>
+        <TableRow >
+            <TextView 
+				android:text="@string/cofigMod_salida" 
+				android:id="@+id/lblConfigModSalida" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+
+			<EditText
+			    android:id="@+id/txtConfigModSalida"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:inputType="number" >
+
+			</EditText>            
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>
